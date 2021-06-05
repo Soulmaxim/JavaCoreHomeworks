@@ -1,22 +1,22 @@
-package ru.geekbrains.javacore.homeworks;
+package ru.geekbrains.javacore.homeworks.hw1;
 
-public class Human implements Participants {
+public class Cat implements Participants {
     private String name;
     private double maxRun;
     private double maxJump;
-    public Human(String name, double maxRun, double maxJump) {
+    public Cat(String name, double maxRun, double maxJump) {
         this.name = name;
         this.maxRun = maxRun;
         this.maxJump = maxJump;
     }
     @Override
     public void run() {
-        System.out.print(name + " (human) is running");
+        System.out.print(name + " (cat) is running");
     }
 
     @Override
     public void jump() {
-        System.out.print(name + " (human) is jumping");
+        System.out.print(name + "(cat) is jumping");
     }
 
     @Override
@@ -31,7 +31,7 @@ public class Human implements Participants {
 
     @Override
     public String getName() {
-        return name + " (human)";
+        return name + " (cat)";
     }
 }
 
