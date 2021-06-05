@@ -1,4 +1,4 @@
-package ru.geekbrains.javacore.homeworks;
+package ru.geekbrains.javacore.homeworks.hw1;
 
 public interface Participants {
     void run();
