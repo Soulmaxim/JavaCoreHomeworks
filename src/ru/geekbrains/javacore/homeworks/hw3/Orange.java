@@ -1,4 +1,7 @@
 package ru.geekbrains.javacore.homeworks.hw3;
 
-public class Orange {
+public class Orange extends Fruit {
+    public Orange() {
+        this.weight = 1.5f;
+    }
 }
